@@ -15,7 +15,7 @@ BASE.metadata.create_all(engine)
 
 
 class Jmthon_GlobalCollection(BASE):
-    __tablename__ = "jmthon_globalcollection"
+    __tablename__ = "virus_globalcollection"
     keywoard = Column(UnicodeText, primary_key=True)
     contents = Column(PickleType, primary_key=True, nullable=False)
 
