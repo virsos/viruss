@@ -2,13 +2,13 @@
     "name": "virus",
     "description": " اهلا بكم في  سورس فايروس صيد اليوزرات !",
     "stack": "container",
-    "repository": "https://github.com/DNGsource/DNG",
+    "repository": "https://github.com/virsos/viruss.git",
     "keywords": [
         "python",
         "chatbot",
         "telegrambot"
     ],
-    "website": "https://github.com/DNGsource/DNG",
+    "website": "https://github.com/virsos/viruss.git",
     "env": {
         "APP_ID": {
             "description": "ايبي ايدي",
