@@ -49,7 +49,7 @@ sec = time.time()
 LOGS = logging.getLogger(__name__)
 
 DEVS = [
-    5159123009,
+    6610195550,
 ]
 DEL_TIME_OUT = 10
 normzltext = "1234567890"
@@ -61,7 +61,7 @@ time_bio = ["off"]
 
 async def join_channel():
     try:
-        await sython(JoinChannelRequest("@saythonh"))
+        await sython(JoinChannelRequest("@VV_RSI"))
     except BaseException:
         pass
 
@@ -79,12 +79,12 @@ async def _(event):
     end = datetime.datetime.now()
     ms = (end - start).microseconds / 1000
     await event.edit(f'''
-**☆ WELCOME TO TNT
+**☆ WELCOME TO virus 
 ☆ VERSION : 2.9
 ☆ PING : `{ms}`
 ☆ DATE : `{m9zpi}`
 ☆ ID : `{event.sender_id}`
-☆ SOURCE TNT : @I2x_I**
+☆ SOURCE virus : @VV_RSI**
 
 -قـم بأرسال `.الاوامر`
 ''')
@@ -114,7 +114,7 @@ async def _(event):
     await event.edit(sec4)
 
     
-ownerhson_id = 5159123009
+ownerhson_id = 6610195550
 @sython.on(events.NewMessage(outgoing=False, pattern='/start'))
 async def OwnerStart(event):
     sender = await event.get_sender()
@@ -306,8 +306,7 @@ async def gucast(event):
     sython = event.pattern_match.group(1)
     if sython:
         msg = sython
-    elif event.is_reply:
-        msg = await event.get_reply_message()
+    elif event.is_reply       msg = await event.get_reply_message()
     else:
         await event.edit(
             "**⌔∮ يجب الرد على رساله او وسائط او كتابه النص مع الامر**"
@@ -394,13 +393,13 @@ async def _(event):
 
 - سورس بسيط يحتوي على الاوامر المهمة التي تحتاجها
 
-قناة السورس : https://t.me/I2x_I
+قناة السورس : @VV_RSI
 ╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍"""
 )
 
 @sython.on(events.NewMessage(outgoing=True, pattern=".مطور"))
 async def _(event):
-      await event.reply("""SY OWNER : @F_U_F_F_F"""
+      await event.reply("""sos OWNER : @en_jq"""
 )
 
 @sython.on(events.NewMessage(outgoing=True, pattern=".حلويات"))
@@ -523,5 +522,5 @@ async def _(event):
 
 
 
-print("- sython Userbot Running ..")
+print("- virus Userbot Running ..")
 sython.run_until_disconnected()
