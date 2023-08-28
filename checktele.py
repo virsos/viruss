@@ -251,13 +251,13 @@ async def _(event):
                     await event.client.send_message(event.chat_id, f'''
 ●━━━━━━━━●
 ┏━━━━━┓
-- By ↣ @F_U_F_F_F
+- By ↣ @en_jq
 ┗━━━━━┛
 ┏━━━━━┓
 ↣ (@{username})
 ┗━━━━━┛
 ┏━━━━━┓
-- By ↣ @I2x_I
+- By ↣ @VV_RSI
 ┗━━━━━┛
 ●━━━━━━━━●
     ''')
@@ -318,13 +318,13 @@ async def _(event):
                         await event.client.send_message(event.chat_id, f'''
 ●━━━━━━━━●
 ┏━━━━━┓
-- By ↣ @F_U_F_F_F
+- By ↣ @en_jq
 ┗━━━━━┛
 ┏━━━━━┓
 ↣ (@{username})
 ┗━━━━━┛
 ┏━━━━━┓
-- By ↣ @I2x_I
+- By ↣ @VV_RSI
 ┗━━━━━┛
 ●━━━━━━━━●
 
@@ -360,13 +360,13 @@ async def _(event):
                 await event.client.send_message(event.chat_id, f'''
 ●━━━━━━━━●
 ┏━━━━━┓
-- By ↣ @F_U_F_F_F
+- By ↣ @en_jq
 ┗━━━━━┛
 ┏━━━━━┓
 ↣ (@{username})
 ┗━━━━━┛
 ┏━━━━━┓
-- By ↣ @I2x_I
+- By ↣ @VV_RSI
 ┗━━━━━┛
 ●━━━━━━━━●
     ''')
